@@ -19,3 +19,7 @@ require (
 	gopkg.in/tomb.v2 v2.0.0-20161208151619-d5d1b5820637
 	honnef.co/go/tools v0.0.1-2020.1.4
 )
+
+replace golang.org/x/tools => github.com/myitcvforks/tools v0.0.0-20200528031309-b7225ca4406d
+
+replace golang.org/x/tools/gopls => github.com/myitcvforks/tools/gopls v0.0.0-20200528031309-b7225ca4406d
